@@ -2,7 +2,7 @@
 #include <SPI.h>
 #include <SPIFlash.h>
 
-#define NODEID      99
+#define NODEID      42
 #define NETWORKID   100
 #define GATEWAYID   1
 #define FREQUENCY   RF69_433MHZ //Match this with the version of your Moteino! (others: RF69_433MHZ, RF69_868MHZ)
