@@ -21,6 +21,9 @@ typedef struct {
   int           nodeId; //store this nodeId
   unsigned long uptime; //uptime in ms
   float         temp;   //temperature maybe?
+  float         press; //pressure
+  float         altitude; //humidity
+  float         humidity;
 } Payload;
 Payload theData;
 
